@@ -15,18 +15,18 @@ h1{
 .container{
     background-image : linear-gradient(45deg,#6de1e1,#7f7fd5);
     height: 100vh; 
-    display: flex;
 }
 
 .chat-container{
     width: 100%;
+    padding-top: 100px;
     min-height: 600px;
     max-height: 800px;
     flex-direction: row;
     display: flex;
     align-self: center;
-    justify-content: space-around;
-    align-content: stretch;
+    justify-content: center;
+    align-content: center;
 }
 
 .background-opacity{
@@ -127,7 +127,6 @@ h1{
 }
 .receiver-detail{
     justify-self: flex-start;
-    flex: 5;
 }
 .chat-detail-header-avatar{
     width: 90px;
@@ -137,19 +136,13 @@ h1{
     border: 2px solid white;
 }
 .contact-icons{
-    flex: 1;
     display: flex;
     justify-content: space-between;
-    max-width: 100px;
+    margin-left: auto;
 }
 .contact-icons>i{
-    
-}
-.more-icon{
-    flex: 1;
-    text-align: end;
-    max-width: 100px;
-    
+    margin-right: 50px;
+    font-size: 1.5rem;
 }
 .chat-detail-header-avatar img{
     object-fit: contain;
@@ -159,9 +152,6 @@ h1{
 
 .input-message{
     display: flex;
-    /* position: absolute; */
-    bottom: 0;
-    width: calc(100% - 40px);
     padding: 10px;
     font-size: 1.5em;
     color: white;
